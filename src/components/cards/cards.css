@@ -1,0 +1,88 @@
+
+
+.container {
+    width: 100%;
+}
+
+.mainlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9ecef;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+    list-style: none;
+    padding-left: 15px;
+}
+
+.lists {
+    flex-grow: 1;
+    text-align: left;
+    word-break: break-word;
+}
+
+
+.mainlist button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.mainlist button img {
+    vertical-align: middle;
+}
+
+
+.edit-controls {
+    display: flex; 
+    align-items: center; 
+    flex-grow: 1;
+}
+
+
+.edit-input {
+    flex-grow: 1; 
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    min-width: 0;
+}
+
+
+.mainlist button.edit-save-button,
+.mainlist button.edit-cancel-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 8px;
+    transition: background-color 0.2s ease;
+    border: none;
+   
+    flex-shrink: 0;
+}
+
+.mainlist button.edit-save-button {
+    background-color: #28a745;
+}
+
+.mainlist button.edit-save-button:hover {
+    background-color: #218838;
+}
+
+.mainlist button.edit-cancel-button {
+    background-color: #dc3545;
+}
+
+.mainlist button.edit-cancel-button:hover {
+    background-color: #c82333;
+}
